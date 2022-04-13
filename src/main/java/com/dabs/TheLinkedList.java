@@ -32,5 +32,10 @@ public class TheLinkedList {
         System.out.println(  listIterator.previous());
         System.out.println(  listIterator.next());
 
+        list.addFirst(1);
+        list.addLast(1);
+
+        System.out.println(list);
+
     }
 }
